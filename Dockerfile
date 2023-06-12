@@ -4,7 +4,7 @@
 FROM eclipse-temurin:20-jre AS build
 RUN apt-get update -y && apt-get install -y curl jq
 
-LABEL Marc Tönsing <marc@marc.tv>
+LABEL Up Up Apps <contact@upupapps.com>
 
 ARG version=1.14
 
